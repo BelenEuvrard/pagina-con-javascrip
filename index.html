@@ -20,7 +20,7 @@
          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
            <div class="navbar-nav ml-auto">
            <a class="nav-link active" href="index.html">Home </a>
-           <a class="nav-link" href="calcular.html">Calcular</a>
+           <a class="nav-link" href="#calcular">Calcular</a>
            <a class="nav-link" href="#contacto">Contacto</a>
        
               </div>
@@ -63,10 +63,43 @@
                   <p class="h5">manuel navarro</p>
                 </div>
               </section>
+
+
+              <section id="calcular" >
           
             
+              <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Empecemos</h4>
+                    </div>
+                    <form  class="card-body">
           
-              
+     
+                        <div class="form-group">
+                          <label for="validationTooltip01">ingreso mensual familiar</label>
+                            <input type="number" id="" min="0" max="1000000" step="1" value="0" placeholder="ingreso mensual familiar"
+                                class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <select class="custom-select" size="3">
+                            <option selected>selecciones un servicio</option>
+                            <option value="1">luz</option>
+                            <option value="2">gas</option>
+                            <option value="3">agua/option>
+                          </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="number" id="" min="0" max="1000000" step="1" value="0"
+                                class="form-control">
+                        </div>
+                        <input type="submit" value="guardar" class="btn btn-primary btn-block">
+                    </form>
+                </div>
+            </div>
+             
+              </section>
 
         </main>
 
@@ -85,7 +118,7 @@
                     <input type="text" class="form-control" placeholder="Email">
                   </div>
                   <div class="form-group">
-                    <textarea cols="30" rows="10" placeholder="Mensaje" class="form-control"></textarea>
+                    <textarea cols="20" rows="5" placeholder="Mensaje" class="form-control"></textarea>
                   </div>
                   <button class="btn btn-outline-secondary btn-block">
                     Enviar
