@@ -31,6 +31,27 @@ if (ingresos >= 1 ){
 } else {alert('ingrese nuevamente sus datos')}
 
 
+class servicio {
+    constructor(nombre,valor){
+        this.nombre = nombre;
+        this.valor =valor;
+
+    }
+}
+
+const servicios = [];
+const servicio1 = new servicio("agua",1500);
+const servicio2 = new servicio("luz",4600);
+const servicio3 = new servicio("gas",2500);
+servicios.push(servicio1);
+servicios.push(servicio2);
+servicios.push(servicio3);
+
+console.log(servicios)
+
+console.log(servicio1)
+console.log(servicio2)
+console.log(servicio3)
 
 
 
