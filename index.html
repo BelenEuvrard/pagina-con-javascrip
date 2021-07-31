@@ -65,21 +65,25 @@
                 </div>
               </section>
 
+              <div id="saludo"></div>
+
 
               <section id="calcular" >
-          
-            
+          <!-- APPLICACION -->
+              <div id="saludo"></div> <!--id desafio clase 7 y 8 .getElementById("saludo") -->
               <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <h4>Empecemos</h4>
-                    </div>
-                    <form  class="card-body">
+                    </div>  
+                     <!-- FORM -->
+                    <form  class="card-body" id="form-servicios">
+
                       <div class="input-group mb-3">
                         <div class="input-group-prepend">
                           <span class="input-group-text">$ ingreso familiar</span>
                         </div>
-                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        <input type="text" id="ingresoFamiliar" class="form-control" aria-label="Amount (to the nearest dollar)">
                         <div class="input-group-append">
                           <span class="input-group-text">.00</span>
                         </div>
@@ -87,9 +91,9 @@
                         <div class="input-group mb-3 mt-3">
                           <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
                             <option selected>servicios a descontar</option>
-                            <option value="1">agua</option>
-                            <option value="2">luz</option>
-                            <option value="3">gas</option>
+                            <option value="agua">agua</option>
+                            <option value="luz">luz</option>
+                            <option value="gas">gas</option>
                           </select>
                           </div>
                       
@@ -98,19 +102,23 @@
                           <div class="input-group-prepend">
                             <span class="input-group-text">$ importe servicio</span>
                           </div>
-                          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                          <input type="text" id="importeServicio" class="form-control" aria-label="Amount (to the nearest dollar)">
                           <div class="input-group-append">
                             <span class="input-group-text">.00</span>
                           </div>
                         </div>
 
-                        <button type="button" class="btn btn-outline-secondary">enviar</button>
+                        <input type="submit" value="Enviar" class="btn btn-primary btn-block">
 
 
                        
                     </form>
                 </div>
             </div>
+              <!-- LISTA DE SERVICIOS -->
+
+
+            <div id="ingresoServicio" class="col-md-8"></div>              
              
               </section>
 
